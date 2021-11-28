@@ -127,9 +127,7 @@ function Layout({ children }: { children: React.ReactNode }) {
     <div className="remix-app">
       <header className="remix-app__header">
         <div className="container remix-app__header-content">
-          <Link to="/" title="Rakesh Arun">
-            <NavHeader />
-          </Link>
+          <NavHeader />
           <nav aria-label="Main navigation" className="remix-app__header-nav">
             <ul>
               <li>
