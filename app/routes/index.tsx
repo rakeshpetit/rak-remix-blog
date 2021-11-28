@@ -11,12 +11,10 @@ export default function Index() {
   return (
     <div className="remix__page">
       <main>
-        <div className="sm:px-2">
-          <h1 className="px-4 pt-5 text-2xl text-left text-teal-500 font-bold sm:text-3xl">
-            Software developer
-          </h1>
-          <p className="px-4 mt-8 text-lg sm:mt-8">This is WIP</p>
-        </div>
+        <h1 className="pt-5 text-2xl text-left text-teal-500 font-bold sm:text-3xl">
+          Software developer
+        </h1>
+        <p className="mt-8 text-lg sm:mt-8">This is WIP</p>
       </main>
       <aside>
         <h2>My Posts</h2>
