@@ -1,6 +1,7 @@
 import { LoaderFunction, MetaFunction, useLoaderData } from "remix";
 import type { Bookmark } from "@prisma/client";
 import { db } from "~/utils/db.server";
+import BookMarkView from "~/components/BookmarkView";
 
 type LoaderData = { bookmarks: Array<Bookmark> };
 export let loader: LoaderFunction = async () => {
@@ -19,7 +20,7 @@ export let meta: MetaFunction = () => {
 
 export default function () {
   let data = useLoaderData<LoaderData>();
-  console.log("da", data);
+
   return (
     <div className="remix__page">
       <main>
@@ -27,7 +28,7 @@ export default function () {
           Bookmarks
         </h1>
         {data.bookmarks.map((bookmark) => (
-          <li>{bookmark.title}</li>
+          <BookMarkView bookmark={bookmark} />
         ))}
       </main>
     </div>
