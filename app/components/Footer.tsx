@@ -11,9 +11,18 @@ function Footer() {
           © 2021 Copyright: Rakesh Arun
         </p>
         <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
-          <ImageLink src={twitter} url="https://twitter.com/rakeshpetit" />
-          <ImageLink src={githubD} url="https://github.com/rakeshpetit" />
           <ImageLink
+            alt="My Twitter"
+            src={twitter}
+            url="https://twitter.com/rakeshpetit"
+          />
+          <ImageLink
+            alt="My Github"
+            src={githubD}
+            url="https://github.com/rakeshpetit"
+          />
+          <ImageLink
+            alt="My LinkedIn"
             src={linkedin}
             url="https://www.linkedin.com/in/rakesh-arunachalam/"
           />
