@@ -13,7 +13,7 @@ function BookmarkView({ bookmark }: Props) {
         <img alt="icon" src={iconUrl} className="h-10 w-10" />
       </div>
       <div className="flex-1 flex-col ml-4">
-        <a target="_blank" href={bookmark.url}>
+        <a rel="noopener" target="_blank" href={bookmark.url}>
           <div className="text-xl font-medium not-italic text-left">
             {bookmark.title}
           </div>
