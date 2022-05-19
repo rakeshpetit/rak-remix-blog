@@ -15,31 +15,23 @@
 
 # Software
 
-- iTerm 2
+- [Warp](https://www.warp.dev/) as a replacement for iTerm 2
 - [Spectacle](https://www.spectacleapp.com/)
-
-- #### Browsers
-
+- Browsers
   - Chrome
   - [Brave](https://brave.com/)
 - VS Code editor with VIM extension
-
-- #### Mobile
-
+- Mobile
   - Xcode
   - Android Studio
   - [Flipper](https://fbflipper.com/) for debugging React Native
 - Postman
 - [Kap](https://getkap.co/)
-
-- #### Note taking
-
+- Note taking
   - Mac OS Notes
   - [Obsidian](https://obsidian.md/)
 - Mac OS Calendar
-
-- #### Communication
-
+- Communication
   - Mac OS Mail
   - Slack
   - Basecamp
