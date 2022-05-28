@@ -1,8 +1,10 @@
 Sometimes a Node packager (Metro for RN, etc) is running and we have no clue
-where it is running or how to close it. These commands will rescue you by
-shutting down those processes.
+where it is running or how to close it.
 
-Commands:
+![Port in use](https://res.cloudinary.com/dcrbjmmo4/image/upload/v1653759433/port-in-use.png)
+
+These commands will rescue you by
+shutting down those processes.
 
 ```shell
 lsof -i :PORT_NUMBER (of the Node packager)
